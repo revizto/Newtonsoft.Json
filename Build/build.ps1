@@ -8,7 +8,7 @@
   $signAssemblies = $false
   $signKeyPath = "C:\Development\Releases\newtonsoft.snk"
   $buildDocumentation = $false
-  $buildNuGet = $true
+  $buildNuGet = $false
   $msbuildVerbosity = 'minimal'
   $treatWarningsAsErrors = $false
   $workingName = if ($workingName) {$workingName} else {"Working"}
